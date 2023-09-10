@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Posts
+title: Articles
+permalink: /articles/
 ---
 
 <ul>
