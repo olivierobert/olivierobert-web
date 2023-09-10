@@ -35,3 +35,7 @@ To build and deploy the site, run `bin/bridgetown deploy`.
 Bridgetown sites can be deployed to hosts like Render, Vercel, and traditional web servers by building and copying the output folder to the HTML root.
 
 > Learn more: [Bridgetown Deployment Documentation](https://www.bridgetownrb.com/docs/deployment) for more information.
+
+## About
+
+This project is maintained by [Olivier Robert](https://github.com/olivierobert).
