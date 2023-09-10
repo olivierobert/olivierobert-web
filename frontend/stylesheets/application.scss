@@ -1,10 +1,11 @@
+@use 'config/root';
+
 // Vendor
 
 @use 'vendor/pygment';
 
 // Application
 
-@use 'base/root';
 @use 'base/typography';
 
 @use 'layouts/default';
