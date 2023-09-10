@@ -1,5 +1,5 @@
 <p align="center">
-   Codebase for [olivierobert.com](https://olivierobert.com)
+   Codebase for <a href="https://olivierobert.com">olivierobert.com</a>
 </p>
 
 ---
@@ -10,12 +10,8 @@
 
 - [GCC](https://gcc.gnu.org/install/)
 - [Make](https://www.gnu.org/software/make/)
-- [Ruby](https://www.ruby-lang.org/en/downloads/)
-  - `>= 2.7`
-- [Bridgetown Gem](https://rubygems.org/gems/bridgetown)
-  - `gem install bridgetown -N`
-- [Node](https://nodejs.org)
-  - `>= 12`
+- [Ruby](https://www.ruby-lang.org/en/downloads/) ![ruby-version-image](https://img.shields.io/badge/ruby-3.2.2-brightgreen.svg) 
+- [Node](https://nodejs.org) ![node-version-image](https://img.shields.io/badge/node-18.12.1-brightgreen.svg)
 - [Yarn](https://yarnpkg.com)
 
 ### Install
