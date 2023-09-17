@@ -3,7 +3,7 @@
 .app-header {
   display: flex;
   justify-content: space-between;
-  padding-block: 2rem;
+  padding-block: var(--gap-width-3);
 
   line-height: 1.5;
   font-size: 1.3rem;
