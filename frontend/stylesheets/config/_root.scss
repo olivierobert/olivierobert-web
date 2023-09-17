@@ -1,8 +1,17 @@
 :root {
   --body-background: oklch(100% 0 0);
   --body-color: oklch(0 0 0);
+  --body-line-height: 1.7;
 
   --accent-color: oklch(87.88% 0.188 94.75);
 
+  // Grid
+  --grid-max-width: 48rem;
+
+  --gap-width-1: 1rem;
+  --gap-width-2: 1.5rem;
+  --gap-width-3: 2rem;
+
+  // Typography
   --heading-color: oklch(0 0 0);
 }

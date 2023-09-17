@@ -1,5 +1,8 @@
-footer {
-  text-align: center;
+.app-footer {
+  display: grid;
+  gap: var(--gap-width-1);
   margin-bottom: 4rem;
+
   font-size: 1em;
+  text-align: center;
 }

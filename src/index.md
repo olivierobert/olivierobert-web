@@ -3,7 +3,7 @@ layout: default
 page_class: home
 ---
 
-<h2>A software engineer at heart and a hands-on engineering leader by trade.</h2>
+<h2>A software crafter at 🧡 and a hands-on engineering leader by trade</h2>
 
 Hi, I am Olivier 👋 I enjoy building and working with high-performing engineering and product teams. I am currently leading the engineering team at [Nimble](https://nimblehq.co/).
 

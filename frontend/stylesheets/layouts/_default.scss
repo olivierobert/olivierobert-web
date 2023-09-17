@@ -1,27 +1,24 @@
+@use '../mixins/grid' as grid;
+
 .layout-default {
   background: var(--body-background);
 
   color: var(--body-color);
-  font-size: 108%;
+  line-height: var(--base-line-height);
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     "Helvetica", "Arial", sans-serif;
-
-  margin: 0 8px;
 }
 
+.layout-default .app-header,
 .layout-default .app-content,
-.layout-default .app-content {
-  line-height: 1.7;
+.layout-default .app-footer {
+  @include grid.containerize();
 }
 
 .layout-default .app-content {
-  max-width: 65rem;
-  min-height: calc(100vh - 200px);
-  margin: 2rem auto 4rem;
-  padding: 25px 25px 50px;
+  min-height: calc(100vh - 15rem);
 
-  @media (max-width: 500px) {
-    padding: 16px 16px 50px;
-  }
+  padding-top: 2rem;
+  padding-bottom: 4rem;
 }
