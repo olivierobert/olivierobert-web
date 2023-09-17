@@ -1,5 +1,5 @@
 a {
-  color: var(--action-color);
+  color: var(--accent-color);
   text-decoration: underline;
   text-decoration-color: #ffb088;
 }
@@ -11,4 +11,10 @@ h1 {
   font-size: 2.5rem;
   color: var(--heading-color);
   line-height: 1.2;
+}
+
+hr {
+  border: none;
+  border-top: 2px dotted #bbb;
+  margin: 3rem 0;
 }
