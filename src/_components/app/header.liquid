@@ -1,13 +1,15 @@
 <header class="app-header">
-  <div class="app-header__logo">
-    <a href="{{ '/' | relative_url }}" class="app-header__link">olivierobert</a>
-  </div>
+  <div class="app-header__container">
+    <div class="app-header__logo">
+      <a href="{{ '/' | relative_url }}" class="app-header__link">olivierobert</a>
+    </div>
 
-  <nav class="app-header__navigation">
-    <ul class="app-header__list">
-      <li class="app-header__entry"><a href="{{ '/articles' | relative_url }}" class="app-header__link">Articles</a></li>
-      <li class="app-header__entry"><a href="{{ '/notes' | relative_url }}" class="app-header__link">Notes</a></li>
-      <li class="app-header__entry"><a href="{{ '/about' | relative_url }}" class="app-header__link">About</a></li>
-    </ul>
-  </nav>
+    <nav class="app-header__navigation">
+      <ul class="app-header__naviagtion-menu">
+        <li class="app-header__menu-entry"><a href="{{ '/articles' | relative_url }}" class="app-header__link">Articles</a></li>
+        <li class="app-header__menu-entry"><a href="{{ '/notes' | relative_url }}" class="app-header__link">Notes</a></li>
+        <li class="app-header__menu-entry"><a href="{{ '/about' | relative_url }}" class="app-header__link">About</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>

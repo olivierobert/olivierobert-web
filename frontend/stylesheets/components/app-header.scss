@@ -1,15 +1,28 @@
 @use '../mixins/reset' as reset;
 
 .app-header {
-  display: flex;
-  justify-content: space-between;
-  padding-block: var(--gap-width-3);
-
   line-height: 1.5;
-  font-size: 1.3rem;
-  font-weight: bold;
 
-  &__list {
+  background-color: var(--accent-color);
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    padding-block: var(--gap-width-3);
+  }
+
+  &__logo {
+    font-size: 1.5rem;
+  }
+
+  &__navigation {
+    display: flex;
+    align-items: center;
+
+    font-size: 1.2rem;
+  }
+
+  &__naviagtion-menu {
     @include reset.reset-list();
 
     display: flex;
@@ -19,6 +32,7 @@
   }
 
   &__link {
+    font-weight: bold;
     text-decoration: none;
   }
 }
