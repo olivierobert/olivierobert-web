@@ -13,6 +13,14 @@
 
   &__logo {
     font-size: 1.5rem;
+
+    > .app-header__link {
+      color: var(--text-secondary-color-active);
+
+      &:hover {
+        color: var(--secondary-color);
+      }
+    }
   }
 
   &__navigation {
