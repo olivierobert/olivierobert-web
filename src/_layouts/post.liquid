@@ -1,7 +1,17 @@
----
-layout: default
----
+<!doctype html>
+<html class="layout-default layout-default--post" lang="{{ site.locale }}">
+  <head>
+    {% render "app/head", metadata: site.metadata, title: data.title %}
+  </head>
+  <body class="{{ data.page_class }}">
+    {% render "app/header", metadata: site.metadata, resource: resource %}
 
-<h1>{{ data.title }}</h1>
+    <main class="app-content">
+      <h1>{{ data.title }}</h1>
 
-{{ content }}
+      {{ content }}
+    </main>
+
+    {% render "app/footer", metadata: site.metadata %}
+  </body>
+</html>
