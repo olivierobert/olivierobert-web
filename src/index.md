@@ -3,28 +3,30 @@ layout: default
 page_class: home
 ---
 
-<h2>A software crafter at 🧡 and a hands-on engineering leader by trade</h2>
+<div class="callout-block">
+  Hi 👋 I am Olivier.
 
-Hi, I am Olivier 👋 I enjoy building and working with high-performing engineering and product teams. I am currently leading the engineering team at [Nimble](https://nimblehq.co/).
+  I enjoy building and shipping products with high-performing engineering and product teams.
 
-<section class="content-section">
-  <header>
-    <h2>Latest Articles</h2>
-    <small><a href="/articles">View all</a></small>
+  Here I write about what I learn and find useful in my day-to-day work as a human, software crafter, and engineering.
+</div>
+
+<section class="featured-content">
+  <header class="featured-content__header">
+    <h2 class="featured-content__heading">Latest Articles</h2>
+    <a href="/articles" class="featured-content__action link--backgroundless">View all</a>
+    <p class="featured-content__subheading">Long-form-writing on software engineering, engineering management, and personal productivity.</p>
   </header>
 
-  Long-form-writing on software engineering, engineering management, and personal productivity.
-
-  {% render "list_latest_resource", resources: collections.posts.resources %}
+  {% render "list_resource", resources: collections.posts.resources, class_name: "featured-content__list" %}
 </section>
 
-<section class="content-section">
-  <header>
-    <h2>Latest Notes</h2>
-    <small><a href="/notes">View all</a></small>
+<section class="featured-content">
+  <header class="featured-content__header">
+    <h2 class="featured-content__heading">Latest Notes</h2>
+    <a href="/notes" class="featured-content__action link--backgroundless">View all</a>
+    <p class="featured-content__subheading"> Short-form-writing on my current interests and learnings. A mix between a TIL knowledge base and a Zettelkasten.</p>
   </header>
 
-  Short-form-writing on my current interests and learnings. A mix between a TIL knowledge base and a Zettelkasten.
-
-  {% render "list_latest_resource", resources: collections.notes.resources %}
+  {% render "list_resource", resources: collections.notes.resources class_name: "featured-content__list" %}
 </section>

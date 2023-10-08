@@ -1,0 +1,23 @@
+.featured-content {
+  &__header {
+    display: grid;
+    align-items: center;
+    grid-gap: var(--gap-width-1);
+    grid-template-areas: 'heading action' 'subheading subheading';
+    grid-template-columns: auto 1fr;
+  }
+
+  &__heading {
+    grid-area: heading;
+  }
+
+  &__action {
+    grid-area: action;
+
+    font-size: var(--font-size-2);
+  }
+
+  &__subheading {
+    grid-area: subheading;
+  }
+}

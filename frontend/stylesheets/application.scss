@@ -13,5 +13,6 @@
 
 @use 'components/app-footer';
 @use 'components/app-header';
+@use 'components/featured-content';
 
-// @use 'screens/';
+@use 'screens/home';

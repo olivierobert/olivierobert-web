@@ -5,9 +5,16 @@ a {
   // TODO: Add fallback for browsers that do not support `text-underline-offset`
   text-underline-offset: 5px;
   text-decoration: underline;
+  text-decoration-color: var(--color-rust-100);
+
+  transition: all 0.2s ease-in-out;
 
   &:hover {
     color: var(--text-secondary-color-active);
+    text-decoration-color: var(--secondary-color);
+  }
+
+  &:hover:not(.link--backgroundless) {
     background-color: var(--accent-color);
   }
 }

@@ -3,15 +3,23 @@
   --body-color: oklch(0 0 0);
   --body-line-height: 1.7;
 
-  --accent-color: oklch(89.6% 0.18 97);
-  --secondary-color: oklch(58% 0.15 40);
+  --accent-color: var(--color-yellow-500);
+  --secondary-color: var(--color-rust-500);
 
   // Grid
   --grid-max-width: 48rem;
 
-  --gap-width-1: 1rem;
-  --gap-width-2: 1.5rem;
-  --gap-width-3: 2rem;
+  --gap-width-1: 0.5em;
+  --gap-width-2: 1em;
+  --gap-width-3: 1.5em;
+  --gap-width-4: 2em;
+
+  // Colors
+
+  --color-rust-100: oklch(58% 0.15 40 / 0.35);
+  --color-rust-500: oklch(58% 0.15 40);
+
+  --color-yellow-500: oklch(89.6% 0.18 97);
 
   // Typography
   --heading-color: oklch(30% 0.1 38.7);
