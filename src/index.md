@@ -4,11 +4,8 @@ page_class: home
 ---
 
 <div class="callout-block">
-  Hi 👋 I am Olivier.
-
-  I enjoy building and shipping products with high-performing engineering and product teams.
-
-  Here I write about what I learn and find useful in my day-to-day work as a human, software crafter, and engineering.
+  <p>Hi 👋 I am Olivier.</p>
+  <p>Here I write about what I learn and find useful in my day-to-day life as a human, software crafter, and engineering leader.</p>
 </div>
 
 <section class="featured-content">

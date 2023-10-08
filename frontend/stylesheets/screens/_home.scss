@@ -1,5 +1,5 @@
 body.home .app-content {
-  .featured-content + .featured-content {
+  > * + * {
     margin-top: var(--gap-width-4);
   }
 }
