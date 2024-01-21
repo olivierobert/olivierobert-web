@@ -1,0 +1,19 @@
+@use '../functions/sizing' as sizing;
+
+figure,
+img,
+picture,
+video {
+  margin-block: sizing.toEm(32);
+}
+
+figure > *,
+picture > img {
+  margin-block: 0;
+}
+
+figcaption {
+  margin-inline-start: sizing.toEm(12, 14);
+  font-size: sizing.toEm(14);
+  line-height: sizing.toEm(20, 14);
+}

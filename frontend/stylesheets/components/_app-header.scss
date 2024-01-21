@@ -1,0 +1,47 @@
+@use '../mixins/reset' as reset;
+
+.app-header {
+  line-height: 1.5;
+
+  background-color: var(--accent-color);
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    padding-block: var(--gap-width-4);
+  }
+
+  &__logo {
+    font-size: 1.5em;
+    font-family: var(--font-slab-serif);
+
+    > .app-header__link {
+      color: var(--text-secondary-color-active);
+
+      &:hover {
+        color: var(--secondary-color);
+      }
+    }
+  }
+
+  &__navigation {
+    display: flex;
+    align-items: center;
+
+    font-size: 1.2em;
+  }
+
+  &__naviagtion-menu {
+    @include reset.reset-list();
+
+    display: flex;
+    justify-content: flex-end;
+
+    gap: 1.5rem;
+  }
+
+  &__link {
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
