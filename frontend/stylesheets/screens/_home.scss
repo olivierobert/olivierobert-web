@@ -1,4 +1,7 @@
 body.home .app-content {
+  display: flex;
+  align-items: center;
+
   > * + * {
     margin-top: var(--gap-width-4);
   }
@@ -6,5 +9,9 @@ body.home .app-content {
   .callout-block {
     text-align: center;
     border: none;
+  }
+
+  .list-social {
+    margin-top: var(--gap-width-4);
   }
 }
