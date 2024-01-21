@@ -4,11 +4,11 @@ page_class: home
 ---
 
 <article class="callout-block">
-  <p>Hi 👋 I am Olivier.</p>
-  <p>Here I write about what I learn and find useful in my day-to-day life as a human, software crafter, and engineering leader.</p>
+  <p>Hi, I am Olivier Robert 👋</p>
+  <p>Here I plan to write about what I learn and find useful in my day-to-day life as a human, software crafter, and engineering leader.</p>
 </article>
 
-<section class="featured-content">
+<section class="featured-content" hidden>
   <header class="featured-content__header">
     <h2 class="featured-content__heading">Latest Articles</h2>
     <a href="/articles" class="featured-content__action link--backgroundless">View all</a>
@@ -18,7 +18,7 @@ page_class: home
   {% render "list_resource", resources: collections.posts.resources, class_name: "featured-content__list" %}
 </section>
 
-<section class="featured-content">
+<section class="featured-content" hidden>
   <header class="featured-content__header">
     <h2 class="featured-content__heading">Latest Notes</h2>
     <a href="/notes" class="featured-content__action link--backgroundless">View all</a>

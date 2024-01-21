@@ -6,7 +6,7 @@
   background-color: var(--accent-color);
 
   &__container {
-    display: flex;
+    display: center;
     justify-content: space-between;
     padding-block: var(--gap-width-4);
   }
@@ -14,6 +14,8 @@
   &__logo {
     font-size: 1.5em;
     font-family: var(--font-slab-serif);
+
+    text-align: center;
 
     > .app-header__link {
       color: var(--text-secondary-color-active);
@@ -25,7 +27,8 @@
   }
 
   &__navigation {
-    display: flex;
+    // TODO: Enable this when content is added to the navigation
+    display: none;
     align-items: center;
 
     font-size: 1.2em;
