@@ -6,6 +6,8 @@ page_class: home
 <article class="callout-block">
   <p>Hi, I am Olivier Robert 👋</p>
   <p>I am a continuous learner about life and software crafting. I strive to lead engineering teams to be their best self and deliver their best work</p>
+
+  {% render "list_social" %}
 </article>
 
 <section class="featured-content" hidden>
