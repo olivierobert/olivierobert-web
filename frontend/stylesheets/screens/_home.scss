@@ -1,5 +1,24 @@
+@use "../mixins/media-queries" as media;
+
 body.home .app-content {
+
+  display: flex;
+  align-items: center;
+
+  @include media.breakpoint(lg) {
+    font-size: var(--font-size-5);
+  }
+
   > * + * {
+    margin-top: var(--gap-width-4);
+  }
+
+  .callout-block {
+    text-align: center;
+    border: none;
+  }
+
+  .list-social {
     margin-top: var(--gap-width-4);
   }
 }
