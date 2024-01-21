@@ -5,7 +5,7 @@ page_class: home
 
 <article class="callout-block">
   <p>Hi, I am Olivier Robert 👋</p>
-  <p>Here I plan to write about what I learn and find useful in my day-to-day life as a human, software crafter, and engineering leader.</p>
+  <p>I am a continuous learner about life and software crafting. I strive to lead engineering teams to be their best self and deliver their best work</p>
 </article>
 
 <section class="featured-content" hidden>
