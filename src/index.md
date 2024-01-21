@@ -3,10 +3,10 @@ layout: default
 page_class: home
 ---
 
-<div class="callout-block">
+<article class="callout-block">
   <p>Hi 👋 I am Olivier.</p>
   <p>Here I write about what I learn and find useful in my day-to-day life as a human, software crafter, and engineering leader.</p>
-</div>
+</article>
 
 <section class="featured-content">
   <header class="featured-content__header">
